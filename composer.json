@@ -1,0 +1,22 @@
+{
+    "name": "moin35/lvcrud",
+    "description": "This is a Basic CRUD Sample Package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Moin Besuwas",
+            "email": "moinmd@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Moin35\\Lvcrud\\": "package/moin35/Lvcrud/src"
+        },
+        "classmap": [
+            "views/products"
+        ]
+    }
+}
