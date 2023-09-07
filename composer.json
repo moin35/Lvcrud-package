@@ -15,5 +15,12 @@
         "psr-4": {
             "Moin35\\Lvcrud\\": "package/moin35/Lvcrud/src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moin35\\Lvcrud\\ProductServiceProvider"
+            ]
+        }
     }
 }
