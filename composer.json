@@ -14,9 +14,6 @@
     "autoload": {
         "psr-4": {
             "Moin35\\Lvcrud\\": "package/moin35/Lvcrud/src"
-        },
-        "classmap": [
-            "views/products"
-        ]
+        }
     }
 }
