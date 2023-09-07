@@ -27,7 +27,7 @@ class ProductServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views/products', 'Lvcrud');
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->publishes([
-        __DIR__.'/views/products' => resource_path('/views/products/vendor/Lvcrud'),
+        __DIR__.'/views/products' => resource_path('/views/vendor/Lvcrud'),
     ]);
         
     }
