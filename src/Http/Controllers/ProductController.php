@@ -9,12 +9,12 @@ class ProductController extends Controller
 {
     public function index(){
         $product = Product::latest()->paginate(5);
-        return view('Lvcrud::index',compact('product'))
+        return view('Lvcrud::products.index',compact('product'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
         }
 
     public function create(){
-        return view('Lvcrud::create');
+        return view('Lvcrud::products.create');
     }
 
     public function store(Request $request){
@@ -34,7 +34,7 @@ class ProductController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show(Product $product){
-        return view('Lvcrud::show',compact('product'));
+        return view('Lvcrud::products.show',compact('product'));
     } 
      
     /**
@@ -44,7 +44,7 @@ class ProductController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit(Product $product){
-        return view('Lvcrud::edit',compact('product'));
+        return view('Lvcrud::products.edit',compact('product'));
     }
     
     /**

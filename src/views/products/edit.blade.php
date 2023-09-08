@@ -1,4 +1,4 @@
-@extends('Lvcrud::layout')
+@extends('Lvcrud::products.layout')
    
 @section('content')
     <div class="row">
