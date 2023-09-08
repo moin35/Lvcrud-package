@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Moin35\\Lvcrud\\": "package/moin35/Lvcrud/src"
+            "Moin35\\Lvcrud\\": "src/"
         }
     },
     "extra": {
