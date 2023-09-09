@@ -18,4 +18,5 @@
 ### Then Run Command php artisan serve
 ### hit Route 'http://127.0.0.1:8000/product'
 
-# Thanks
+> Note: First of all I had no prior experience in building Laravel packages. Then I tried to make a simple CRUD package using Laravel MVC pattern according to the instructions of the mail attachment. I have made the view and controller user modifiable. But the controller is not working somehow but the view is working. And I also published on https://packagist.org/. Packagegist link https://packagist.org/packages/moin35/lvcrud#dev-master
+If I get some time I can solve it completely.
