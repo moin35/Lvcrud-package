@@ -13,7 +13,7 @@
 ### 'php artisan migrate'
 
 ## Fifth Step
-### 'php artisan vendor:publish --tag=controllers --provider="Moin35\Lvcrud\ProductServiceProvider"'
+### 'php artisan vendor:publish --tag=controllers'
 
 ### Then Run Command php artisan serve
 ### hit Route 'http://127.0.0.1:8000/product'
