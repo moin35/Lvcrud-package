@@ -9,9 +9,11 @@ class ProductController extends Controller
 {
     public function index(){
         $product = Product::latest()->paginate(5);
-        return view('Lvcrud::products.index',compact('product'))
+    $test = "Hello LV";
+        return view('Lvcrud::products.index',compact('product','test'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
         }
+
 
     public function create(){
         return view('Lvcrud::products.create');

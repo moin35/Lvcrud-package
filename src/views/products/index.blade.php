@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 8 CRUD Example from scratch</h2>
+                <h2>Laravel 8 CRUD Example {{$test}}</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-success" href="{{ route('product.create') }}"> Create New Product</a>
