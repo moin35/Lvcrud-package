@@ -4,6 +4,7 @@
 
 ## Second Step 
 ### 'composer require moin35/lvcrud' run this command
+### Then Go app/config folder and open app.php then add 'Moin35\Lvcrud\ProductServiceProvider::class,' this code under providers
 
 ## Third Step
 ### 'php artisan vendor:publish --tag=views'
